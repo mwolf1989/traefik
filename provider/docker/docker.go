@@ -29,9 +29,9 @@ import (
 
 const (
 	// DockerAPIVersion is a constant holding the version of the Provider API traefik will use
-	DockerAPIVersion = "1.24"
+	DockerAPIVersion = "1.44"
 	// SwarmAPIVersion is a constant holding the version of the Provider API traefik will use.
-	SwarmAPIVersion = "1.24"
+	SwarmAPIVersion = "1.44"
 )
 
 var _ provider.Provider = (*Provider)(nil)
